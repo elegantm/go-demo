@@ -12,9 +12,9 @@ package main
 
 import "fmt"
 
-func main()  {
+func slic() {
 	var s []int
-	s = append(s,1)
+	s = append(s, 1)
 	fmt.Println(s)
 
 }

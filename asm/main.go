@@ -10,11 +10,17 @@
 */
 package main
 
-func main()  {
-	sum(10,20)
+import "fmt"
 
+func main() {
+	fmt.Println("Hello")
 }
 
-func sum(a,b int)int  {
-	return a +b
-}
+// func main()  {
+// 	sum(10,20)
+
+// }
+
+// func sum(a,b int)int  {
+// 	return a +b
+// }
