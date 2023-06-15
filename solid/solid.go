@@ -1,9 +1,7 @@
 /*
 @Time : 2022/7/21 10:57
-@Author : min.zhang@yamu.com
+@Author : elegantm
 @File : solid
-@Software: gtm for ddi
-//Copyright (c) 2003-2021 牙木科技股份有限公司
 //All rights reserved.
 功能介绍：
 修订历史:
