@@ -1,6 +1,9 @@
 package channel
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 // read channel with close
 // result : panic
@@ -24,5 +27,19 @@ func ReadCloseChannelWithData() {
 
 	a, ok = <-ch
 	fmt.Println("read data:", a, ok)
+
+}
+
+func ChanAndArray() {
+	//ch := make(chan int, 1)
+	var ch chan int
+
+	fmt.Println("ptr: ", ch)
+	fmt.Println("ptr ", &ch)
+	fmt.Println("is nil ", ch == nil)
+
+	ch <- 3
+
+	time.Sleep(1 * time.Second)
 
 }

@@ -14,3 +14,7 @@ func TestReadCloseChannelNodata(t *testing.T) {
 	ReadCloseChannel()
 
 }
+
+func TestChanAndArray(t *testing.T) {
+	ChanAndArray()
+}
